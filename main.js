@@ -111,7 +111,7 @@ function prevImg() {
         //adding active class to the chosen img
         arrOfImgs[currentImgNum -1].classList.add("active")
     })
-    // increasing current img index by 1
+    // decreasing current img index by 1
     currentImgNum--
     // removing active class from all indicators
     arrOfIndcators.forEach((ele)=>{
